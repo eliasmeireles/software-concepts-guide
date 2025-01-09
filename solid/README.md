@@ -1,22 +1,14 @@
-# SOLID
+# Princípios SOLID
 
-*S*: _Single Responsibility Principle_ (Princípio da Responsabilidade Única)
+Os princípios SOLID são um conjunto de diretrizes que ajudam a criar sistemas orientados a objetos que sejam mais
+robustos, manuteníveis e escaláveis.
 
-- Uma classe deve ter uma única responsabilidade, ou seja, uma única razão para mudar.
+- **[S - Single Responsibility Principle](./srp/README.md)**: Cada classe deve ter apenas uma responsabilidade.
+- **[O - Open/Closed Principle](./ocp/README.md)**: Classes devem estar abertas para extensão, mas fechadas para
+  modificação.
+- **[L - Liskov Substitution Principle](./lsp/README.md)**: Subtipos devem ser substituíveis por seus tipos base.
+- **[I - Interface Segregation Principle](./isp/README.md)**: Interfaces específicas são preferíveis a interfaces
+  genéricas.
+- **[D - Dependency Inversion Principle](./dip/README.md)**: Dependa de abstrações, não de implementações.
 
-*O*: _Open/Closed Principle_ (Princípio do Aberto/Fechado)
-
-- O código deve ser aberto para extensões, mas fechado para modificações.
-
-*L*: _Liskov Substitution Principle_ (Princípio da Substituição de Liskov)
-
-- Objetos de uma classe derivada devem poder substituir os objetos de sua classe base sem alterar
-  o comportamento esperado do sistema.
-
-*I*: _Interface Segregation Principle_ (Princípio da Segregação de Interfaces)
-
-- _Prefira várias interfaces pequenas_ e específicas do que uma única interface grande e geral.
-
-*D*: _Dependency Inversion Principle_ (Princípio da Inversão de Dependência)
-
-- Dependa de abstrações (interfaces) e não de implementações concretas.
+Explore os diretórios individuais para aprender mais sobre cada princípio e ver exemplos práticos.

@@ -1,5 +1,8 @@
 # Guia de Conceitos de Software
 
+> Esses são conceitos importantes que **todo desenvolvedor de software deveria saber** para construir sistemas mais
+> robustos, manuteníveis e escaláveis.
+
 - **[SOLID](./solid/README.md)**: Princípios de design orientado a objetos que facilitam a manutenção e extensão de
   software.
 - **CQRS**: Padrão de segregação de responsabilidades de comandos e consultas.
