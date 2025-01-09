@@ -1,6 +1,7 @@
 # Guia de Conceitos de Software
 
-- **SOLID**: Princípios de design orientado a objetos que facilitam a manutenção e extensão de software.
+- **[SOLID](./solid/README.md)**: Princípios de design orientado a objetos que facilitam a manutenção e extensão de
+  software.
 - **CQRS**: Padrão de segregação de responsabilidades de comandos e consultas.
 - **Diferença entre REST e RESTful**: REST é um estilo arquitetural, RESTful é sua implementação prática.
 - **Bases de dados não relacionais**: Bancos de dados que armazenam dados sem usar tabelas relacionais.
