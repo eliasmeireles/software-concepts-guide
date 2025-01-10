@@ -9,7 +9,6 @@
   software.
 - **[CQRS](./cqrs/README.md)**: Padrão que separa responsabilidades de comandos e consultas, melhorando a
   escalabilidade.
-- **[CQRS com Event Sourcing](./cqrs-event-sourcing/README.md)**: Combinação de CQRS e Event Sourcing para melhorar a
 - **[REST vs RESTful](./rest-vs-restful/README.md)**: Diferença entre o estilo arquitetural REST e sua implementação
   prática, RESTful.
 - **[Bancos de Dados: RDBMS vs NoSQL](./database/README.md)**: Comparação entre bancos de dados relacionais e não
@@ -48,6 +47,15 @@
   sistema.
 - **[Service Mesh](./service-mesh/README.md)**: Infraestrutura dedicada a gerenciar a comunicação entre microserviços de
   maneira segura, observável e escalável, sem a necessidade de modificar o código da aplicação.
+- **[Observabilidade (Logs, Distributed Tracing, NewRelic, etc)](./observability/README.md)**: Conjunto de práticas e
+  ferramentas que permitem monitorar, rastrear e entender o comportamento de sistemas em produção, melhorando a
+  capacidade de resolução de problemas e otimização.
+
+- **[Orquestração vs Coreografia](./orchestration-vs-choreography/README.md)**: Comparação entre modelos de interação em
+  sistemas distribuídos. Orquestração centraliza o controle em um componente principal, enquanto coreografia distribui
+  responsabilidades entre os serviços, promovendo maior descentralização.
+- **[Stateless vs Stateful](./stateless-vs-stateful/README.md)**: Diferença entre designs sem estado (stateless) e com
+  estado (stateful), com exemplos e casos de uso para cada abordagem.
 
 ----
 
