@@ -1,16 +1,20 @@
-# **Observability (Logs, Distributed Tracing, New Relic, etc.)**
+# **Observability (Logs, Distributed Tracing, New Relic, Datadog, Grafana, Prometheus, etc.)**
 
-**Observability** é a capacidade de medir o estado interno de um sistema com base na sua saída externa. Em vez de apenas
-monitorar eventos conhecidos (como erros ou falhas), a observabilidade fornece a capacidade de entender o comportamento
-de um sistema distribuído e identificar a causa raiz de problemas, mesmo que esses problemas não sejam previsíveis ou
-sejam complexos. As principais técnicas de observabilidade incluem **logs**, **tracing distribuído** e **métricas**.
+**Observabilidade** é a capacidade de medir o estado interno de um sistema com base na sua saída externa. Em vez de
+apenas monitorar eventos conhecidos (como erros ou falhas), a observabilidade fornece a capacidade de entender o
+comportamento de um sistema distribuído e identificar a causa raiz de problemas, mesmo que esses problemas não sejam
+previsíveis ou sejam complexos. As principais técnicas de observabilidade incluem **logs**, **tracing distribuído** e *
+*métricas**.
 
-### **Componentes principais de Observabilidade**
+---
 
-1. **Logs**
-2. **Distributed Tracing**
-3. **Métricas**
-4. **Ferramentas de Observabilidade (como New Relic)**
+## **Componentes Principais de Observabilidade**
+
+1. [**Logs**](#1-logs)
+2. [**Distributed Tracing**](#2-distributed-tracing)
+3. [**Métricas**](#3-métricas)
+4. [**Ferramentas de Observabilidade (Datadog, New Relic, Grafana, Prometheus, etc.)
+   **](#4-ferramentas-de-observabilidade)
 
 ---
 
@@ -30,20 +34,24 @@ como mensagens de erro, status de tarefas, interações de usuários, e muito ma
 ### **Tipos de Logs**:
 
 1. **Logs de Aplicação**:
-    - Registram a atividade da própria aplicação, como requisições HTTP, falhas de autenticação, mensagens de erro, etc.
+
+- Registram a atividade da própria aplicação, como requisições HTTP, falhas de autenticação, mensagens de erro, etc.
 
 2. **Logs de Servidor**:
-    - Registram eventos relacionados ao servidor, como falhas de hardware, uso de CPU, memória, etc.
+
+- Registram eventos relacionados ao servidor, como falhas de hardware, uso de CPU, memória, etc.
 
 3. **Logs de Rede**:
-    - Registram o tráfego de rede, como pacotes de dados, status de conexão, latência, etc.
+
+- Registram o tráfego de rede, como pacotes de dados, status de conexão, latência, etc.
 
 ### **Ferramentas para Logs**:
 
-- **Elasticsearch, Logstash e Kibana (ELK Stack)**: Popular stack para agregação, busca e visualização de logs.
-- **Fluentd**: Ferramenta de coleta e envio de logs para diversos destinos.
-- **Grafana Loki**: Ferramenta de agregação de logs focada na integração com o Grafana.
-- **Splunk**: Plataforma para coletar, indexar e visualizar logs.
+- [**Elasticsearch, Logstash e Kibana (ELK Stack)**](https://www.elastic.co/what-is/elk-stack): Popular stack para
+  agregação, busca e visualização de logs.
+- [**Fluentd**](https://www.fluentd.org/): Ferramenta de coleta e envio de logs para diversos destinos.
+- [**Grafana Loki**](https://grafana.com/oss/loki/): Ferramenta de agregação de logs focada na integração com o Grafana.
+- [**Splunk**](https://www.splunk.com/): Plataforma para coletar, indexar e visualizar logs.
 
 ---
 
@@ -63,18 +71,20 @@ enquanto ela atravessa múltiplos serviços, ajudando a identificar gargalos e p
 - **Rastreio de Latência**: Ajuda a identificar latências entre serviços e áreas onde o desempenho pode ser melhorado.
 - **Visibilidade no Fluxo de Dados**: Facilita a análise de transações complexas que atravessam múltiplos sistemas.
 
-### **Exemplo
+### **Exemplo**:
 
-**: Em uma aplicação de e-commerce, uma requisição de compra pode passar por serviços de autenticação, cálculo de
+Em uma aplicação de e-commerce, uma requisição de compra pode passar por serviços de autenticação, cálculo de
 preços, estoque, pagamento e confirmação de pedido. O tracing ajuda a identificar onde ocorrem atrasos ou falhas.
 
 ### **Ferramentas para Distributed Tracing**:
 
-- **Jaeger**: Sistema de rastreamento distribuído de código aberto.
-- **Zipkin**: Uma plataforma de rastreamento distribuído que coleta e exibe dados de performance e latência.
-- **OpenTelemetry**: Um conjunto de ferramentas, APIs e SDKs que ajudam a coletar dados de observabilidade, incluindo
-  tracing e métricas.
-- **Datadog**: Oferece tracing distribuído como parte de sua plataforma de observabilidade.
+- [**Jaeger**](https://www.jaegertracing.io/): Sistema de rastreamento distribuído de código aberto.
+- [**Zipkin**](https://zipkin.io/): Uma plataforma de rastreamento distribuído que coleta e exibe dados de performance e
+  latência.
+- [**OpenTelemetry**](https://opentelemetry.io/): Um conjunto de ferramentas, APIs e SDKs que ajudam a coletar dados de
+  observabilidade, incluindo tracing e métricas.
+- [**Datadog**](https://www.datadoghq.com/): Oferece tracing distribuído como parte de sua plataforma de
+  observabilidade.
 
 ---
 
@@ -102,11 +112,13 @@ desempenho (KPIs). As métricas são essenciais para ter uma visão geral da sa�
 
 ### **Ferramentas para Métricas**:
 
-- **Prometheus**: Sistema de monitoramento de código aberto que coleta e armazena métricas em tempo real.
-- **Grafana**: Embora seja mais conhecido como uma plataforma de visualização de dados, o Grafana também pode ser usado
-  para exibir métricas coletadas pelo Prometheus.
-- **Datadog**: Fornece métricas em tempo real e análises de dados.
-- **StatsD**: Ferramenta para enviar métricas para backend, como Graphite, Prometheus ou Datadog.
+- [**Prometheus**](https://prometheus.io/): Sistema de monitoramento de código aberto que coleta e armazena métricas em
+  tempo real.
+- [**Grafana**](https://grafana.com/): Mais conhecido como uma plataforma de visualização de dados, o Grafana também
+  pode ser usado para exibir métricas coletadas pelo Prometheus.
+- [**Datadog**](https://www.datadoghq.com/): Fornece métricas em tempo real e análises de dados.
+- [**StatsD**](https://github.com/statsd/statsd): Ferramenta para enviar métricas para backend, como Graphite,
+  Prometheus ou Datadog.
 
 ---
 
@@ -116,29 +128,45 @@ Ferramentas de observabilidade integradas, como **New Relic**, **Datadog**, **Pr
 coletar, analisar e visualizar logs, métricas e traces. Elas ajudam as equipes a ter uma visão completa do sistema,
 identificando pontos de falha, monitorando a saúde e analisando o desempenho em tempo real.
 
-### **New Relic**
+### **Datadog**
 
-- **O que é**: Plataforma de observabilidade baseada em nuvem que oferece monitoramento de desempenho de aplicativos,
-  métricas de infraestrutura, logs e tracing distribuído.
+- [**Site oficial**](https://www.datadoghq.com/)
 - **Funcionalidades**:
     - **APM (Application Performance Monitoring)**: Monitora o desempenho de aplicativos em tempo real.
     - **Distributed Tracing**: Rastreia transações e requisições em um sistema distribuído.
     - **Métricas e Dashboards**: Oferece visualizações de métricas e análise de dados em tempo real.
     - **Alertas e Notificações**: Configura alertas para quando o sistema se desvia dos padrões estabelecidos.
-- **Usos Comuns**:
-    - Monitoramento de desempenho de aplicações web e microserviços.
-    - Rastreamento e correção de gargalos de latência.
-    - Detecção de falhas e erros críticos.
+
+### **New Relic**
+
+- [**Site oficial**](https://newrelic.com/)
+- **Funcionalidades**:
+    - **APM (Application Performance Monitoring)**: Monitora o desempenho de aplicativos em tempo real.
+    - **Distributed Tracing**: Rastreia transações e requisições em um sistema distribuído.
+    - **Métricas e Dashboards**: Oferece visualizações de métricas e análise de dados em tempo real.
+    - **Alertas e Notificações**: Configura alertas para quando o sistema se desvia dos padrões estabelecidos.
+
+### **Grafana**
+
+- [**Site oficial**](https://grafana.com/)
+- **Funcionalidades**:
+    - **Integração com Prometheus**: Exibe métricas coletadas pelo Prometheus.
+    - **Plugins**: Suporta uma variedade de plugins para integração com outras ferramentas.
+    - **Alertas**: Configura alertas baseados em métricas.
+
+### **Prometheus**
+
+- [**Site oficial**](https://prometheus.io/)
+- **Funcionalidades**:
+    - **Coleta de Métricas**: Coleta métricas de sistemas e aplicações.
+    - **Alertas**: Configura alertas baseados em métricas.
+    - **Integração com Grafana**: Exibe métricas coletadas pelo Prometheus.
 
 ---
 
 ## **Conclusão**
 
 A **observabilidade** é crucial para entender o comportamento de sistemas distribuídos, identificar problemas e melhorar
-o desempenho. Através da combinação de **logs**, **tracing distribuído** e **métricas**, as equipes de operações e
-desenvolvimento podem diagnosticar problemas rapidamente, melhorar a escalabilidade e fornecer uma experiência de
-usuário mais confiável.
-
-O uso de ferramentas como **New Relic**, **Datadog**, **Prometheus** e **Jaeger** facilita a implementação dessas
-práticas, permitindo uma melhor análise e visualização de dados essenciais para a manutenção e evolução de sistemas
-modernos e complexos.
+o desempenho. Ferramentas como [**Datadog**](https://www.datadoghq.com/), [**New Relic**](https://newrelic.com/), [*
+*Grafana**](https://grafana.com/) e [**Prometheus**](https://prometheus.io/) facilitam a análise e visualização de logs,
+métricas e tracing, promovendo uma manutenção mais eficiente em sistemas modernos.
