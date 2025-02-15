@@ -7,7 +7,7 @@ ideais e as razões para escolher um ou outro.
 
 ---
 
-## **1. [Bancos de Dados Relacionais (RDBMS)](./relational-db/README.md)**
+## **1. [Bancos de Dados Relacionais (RDBMS)](relational-db/README.md)**
 
 Os **bancos de dados relacionais** são baseados no modelo de dados relacional, onde os dados são organizados em tabelas
 com linhas e colunas. Esses sistemas utilizam a linguagem **SQL (Structured Query Language)** para manipulação e
@@ -49,7 +49,7 @@ consulta de dados. Exemplos populares de RDBMS incluem **MySQL**, **PostgreSQL**
 
 ---
 
-## **2. [Bancos de Dados Não Relacionais (NoSQL)](./non-relational-db/README.md)**
+## **2. [Bancos de Dados Não Relacionais (NoSQL)](non-relational-db/README.md)**
 
 Os **bancos de dados não relacionais (NoSQL)** são uma categoria que abrange diferentes tipos de sistemas de banco de
 dados que não utilizam o modelo relacional de tabelas e linhas. Esses bancos de dados são projetados para trabalhar com
