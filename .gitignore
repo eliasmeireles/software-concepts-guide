@@ -14,6 +14,8 @@ deploy-refs
 .settings
 .springBeans
 .sts4-cache
+out
+.out
 
 ### IntelliJ IDEA ###
 .idea

@@ -12,10 +12,12 @@
   encapsulamento, abstração e polimorfismo.
 - **[Abstração](scg/fundamentals/abstraction/README.md)**: Como simplificar sistemas complexos focando nos aspectos
   essenciais.
-- **[Polimorfismo](scg/fundamentals/polymorphism/README.md)**: Capacidade de objetos de diferentes classes responderem ao
+- **[Polimorfismo](scg/fundamentals/polymorphism/README.md)**: Capacidade de objetos de diferentes classes responderem
+  ao
   mesmo método
   de formas diferentes.
-- **[Injeção de Dependência (DI)](scg/fundamentals/dependency-injection/README.md)**: Padrão que promove o desacoplamento
+- **[Injeção de Dependência (DI)](scg/fundamentals/dependency-injection/README.md)**: Padrão que promove o
+  desacoplamento
   entre
   classes, facilitando testes e manutenção.
 - **[Beans e Estereótipos](scg/fundamentals/beans-stereotypes/README.md)**: Conceitos de componentes gerenciados em
@@ -24,15 +26,13 @@
 - **[ORM (Object-Relational Mapping)](scg/fundamentals/orm/README.md)**: O que é, para que serve e como mapeia objetos
   para bancos de
   dados relacionais.
-- **[JPA vs Hibernate](scg/fundamentals/jpa-vs-hibernate/README.md)**: Diferenças entre a especificação JPA e sua
-  implementação mais
-  popular, o Hibernate.
 
 ---
 
 ## **Padrões de Projeto (Design Patterns)**
 
-- **[Strategy](scg/design-patterns/strategy/README.md)**: Permite que algoritmos sejam selecionados em tempo de execução.
+- **[Strategy](scg/design-patterns/strategy/README.md)**: Permite que algoritmos sejam selecionados em tempo de
+  execução.
 - **[Chain of Responsibility](scg/design-patterns/chain-of-responsibility/README.md)**: Encadeia objetos para processar
   uma requisição.
 - **[Fluent API](scg/design-patterns/fluent-interface/README.md)**: Técnica para criar APIs mais legíveis e expressivas.
@@ -41,7 +41,8 @@
 - **[Singleton](scg/design-patterns/singleton/README.md)**: Garante que uma classe tenha apenas uma instância.
 - **[Observer](scg/design-patterns/observer/README.md)**: Notifica objetos sobre mudanças de estado.
 - **[Decorator](scg/design-patterns/decorator/README.md)**: Adiciona comportamentos a objetos dinamicamente.
-- **[Adapter](scg/design-patterns/adapter/README.md)**: Permite que classes com interfaces incompatíveis trabalhem juntas.
+- **[Adapter](scg/design-patterns/adapter/README.md)**: Permite que classes com interfaces incompatíveis trabalhem
+  juntas.
 - **[Facade](scg/design-patterns/facade/README.md)**: Simplifica a interação com subsistemas complexos.
 
 ---
@@ -51,16 +52,20 @@
 - **[Arquitetura de Camadas](scg/software-architecture/layered-architecture/README.md)**: Separação de responsabilidades
   em camadas (
   apresentação, lógica de negócios e dados).
-- **[Microserviços](scg/software-architecture/microservices/README.md)**: Divisão da aplicação em serviços independentes.
+- **[Microserviços](scg/software-architecture/microservices/README.md)**: Divisão da aplicação em serviços
+  independentes.
 - **[API Gateway](scg/software-architecture/api-gateway/README.md)**: Ponto único de entrada para microserviços.
-- **[Domain-Driven Design (DDD)](scg/software-architecture/ddd/README.md)**: Foco no domínio do negócio para modelagem de
+- **[Domain-Driven Design (DDD)](scg/software-architecture/ddd/README.md)**: Foco no domínio do negócio para modelagem
+  de
   software.
 - **[Event Sourcing](scg/software-architecture/event-sourcing/README.md)**: Armazenamento de mudanças de estado como
   eventos imutáveis.
-- **[CQRS (Command Query Responsibility Segregation)](scg/software-architecture/cqrs/README.md)**: Separação de comandos (
+- **[CQRS (Command Query Responsibility Segregation)](scg/software-architecture/cqrs/README.md)**: Separação de
+  comandos (
   escrita) e consultas (
   leitura).
-- **[Service Mesh](scg/software-architecture/service-mesh/README.md)**: Gerenciamento de comunicação entre microserviços.
+- **[Service Mesh](scg/software-architecture/service-mesh/README.md)**: Gerenciamento de comunicação entre
+  microserviços.
 - **[Orquestração vs Coreografia](scg/software-architecture/orchestration-vs-choreography/README.md)**: Centralização vs
   descentralização de
   controle em sistemas distribuídos.
@@ -72,7 +77,8 @@
 ## **Banco de Dados**
 
 - **[RDBMS vs NoSQL](scg/databases/rdbms-vs-nosql/README.md)**: Comparação entre bancos relacionais e não relacionais.
-- **[Transações: Atomicidade e Isolamento](scg/databases/transactions/README.md)**: Garantia de consistência em operações.
+- **[Transações: Atomicidade e Isolamento](scg/databases/transactions/README.md)**: Garantia de consistência em
+  operações.
 - **[Optimistic vs Pessimistic Locking](scg/databases/locking/README.md)**: Técnicas de controle de concorrência.
 - **[Idempotência](scg/databases/idempotence/README.md)**: Garantia de que operações repetidas tenham o mesmo efeito.
 
@@ -93,10 +99,12 @@
 
 ## **Resiliência e Escalabilidade**
 
-- **[Tolerância a Falhas](scg/resilience-scalability/fault-tolerance/README.md)**: Capacidade de operar mesmo com falhas.
+- **[Tolerância a Falhas](scg/resilience-scalability/fault-tolerance/README.md)**: Capacidade de operar mesmo com
+  falhas.
 - **[Circuit Breaker](scg/resilience-scalability/circuit-breaker/README.md)**: Prevenção de falhas catastróficas em
   sistemas distribuídos.
-- **[Pub/Sub (Publish/Subscribe)](scg/resilience-scalability/pub-sub/README.md)**: Comunicação assíncrona entre produtores
+- **[Pub/Sub (Publish/Subscribe)](scg/resilience-scalability/pub-sub/README.md)**: Comunicação assíncrona entre
+  produtores
   e consumidores.
 
 ---
@@ -135,4 +143,17 @@
 
 - **[Clean Architecture](scg/software-architecture/clean-architecture/README.md)**: Organização de código que promove
   separação de responsabilidades e independência de frameworks, interfaces e detalhes de implementação.
+
 ---
+
+
+
+## **Java**
+
+- **[Mudanças Importantes nas Versões LTS do Java](scg/java/java-best-evolution.md)**: Este documento descreve as
+  principais mudanças e features introduzidas nas versões LTS do Java: **Java 8**, **Java 11**,
+  **Java 17** e **Java 21**.
+
+- **[JPA vs Hibernate](scg/java/jpa-vs-hibernate/README.md)**: Diferenças entre a especificação JPA e sua
+  implementação mais
+  popular, o Hibernate.
