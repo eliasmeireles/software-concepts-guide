@@ -49,9 +49,10 @@
 
 ## **Arquitetura de Software**
 
+- **[Arquitetura Hexagonal](scg/software-architecture/hexagonal-architecture/README.md)**: Organização de código em
+  torno do domínio, permitindo maior flexibilidade e desacoplamento.
 - **[Arquitetura de Camadas](scg/software-architecture/layered-architecture/README.md)**: Separação de responsabilidades
-  em camadas (
-  apresentação, lógica de negócios e dados).
+  em camadas (apresentação, lógica de negócios e dados).
 - **[Microserviços](scg/software-architecture/microservices/README.md)**: Divisão da aplicação em serviços
   independentes.
 - **[API Gateway](scg/software-architecture/api-gateway/README.md)**: Ponto único de entrada para microserviços.
@@ -145,8 +146,6 @@
   separação de responsabilidades e independência de frameworks, interfaces e detalhes de implementação.
 
 ---
-
-
 
 ## **Java**
 
