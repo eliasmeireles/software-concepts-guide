@@ -119,6 +119,8 @@
 
 ## **Outros Conceitos Importantes**
 
+- **[Criptografia](scg/security/cryptography/README.md)**: Proteção de dados por meio de técnicas e algoritmos de
+  codificação.
 - **[REST vs RESTful](scg/other-concepts/rest-vs-restful/README.md)**: Diferenças entre o estilo arquitetural REST e sua
   implementação
   prática.
