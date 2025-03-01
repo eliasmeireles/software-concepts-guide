@@ -3,8 +3,8 @@
 ## O que é Criptografia?
 
 Criptografia é a prática de proteger informações através do uso de algoritmos matemáticos, transformando dados
-legíveis (texto plano) em uma forma ilegível (texto cifrado). O objetivo principal é garantir a **confidencialidade**, *
-*integridade**, e **autenticidade** das informações.
+legíveis (texto plano) em uma forma ilegível (texto cifrado). O objetivo principal é garantir a **confidencialidade**,
+**integridade**, e **autenticidade** das informações.
 
 ### Definições Básicas
 
